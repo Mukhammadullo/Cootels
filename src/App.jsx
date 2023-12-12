@@ -7,6 +7,7 @@ import img1 from '../src/assets/1 (1).png'
 import img2 from '../src/assets/1 (2).png'
 import img3 from '../src/assets/1 (3).png'
 import card2 from '../src/assets/card2.png'
+import card4 from '../src/assets/card4 (2).png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -73,7 +74,9 @@ function App() {
           <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500'></div>
 
           {/* card_right */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500'></div>
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500'>
+            <img src={card4} />
+          </div>
         </div>
 
 
