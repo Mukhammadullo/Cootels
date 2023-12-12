@@ -3,6 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import img1 from '../src/assets/1 (1).png'
+import img2 from '../src/assets/1 (2).png'
+import img3 from '../src/assets/1 (3).png'
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -31,9 +36,10 @@ function App() {
             <p className='text-[#848FAC] text-[18px] ml-[18px]'>One place to release all the stress, bring back happines, <br /> and get back to nature. We provide the best room  <br /> and nature for you. Come visit us anytime you want.</p>
             <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Reservation</button>
           </div>
-          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-blue-700' >
-            <img src={} />
-
+          <div className='w-[40%] h-[70vh] border-solid border-[2px] border-blue-700 flex justify-evenly' >
+            <img src={img1} className='w-[23%] h-[65vh]' />
+            <img src={img2} className='w-[23%] h-[65vh] mt-[30px]' />
+            <img src={img3} className='w-[23%] h-[65vh]' />
           </div>
 
         </div>
