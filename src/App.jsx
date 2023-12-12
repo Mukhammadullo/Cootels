@@ -6,7 +6,7 @@ import './App.css'
 import img1 from '../src/assets/1 (1).png'
 import img2 from '../src/assets/1 (2).png'
 import img3 from '../src/assets/1 (3).png'
-import card2 from ''
+import card2 from '../src/assets/card2.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -50,18 +50,18 @@ function App() {
         {/* #card2 */}
         <div className='w-[100%] h-[75vh] border-solid border-red-500 border-[2px] flex items-center'>
           {/* card_left */}
-          <div className='w-[40%] h-[75vh] border-solid border-red-600 border-[2px]'>
-            <img src={card2} />
+          <div className='w-[40%] h-[75vh] border-solid border-red-600 border-[2px] flex justify-center'>
+            <img src={card2} className='h-[70vh] ' />
           </div>
 
           {/* card_right */}
           <div>
-            <p className='text-[#192252] text-[26px]'>Cozy and Down to Earth Cootage <br /> Hotel in Norway.</p>
+            <p className='text-[#192252] text-[40px] font-bold'>Cozy and Down to Earth Cootage <br /> Hotel in Norway.</p>
 
-            <p>Our Cootage Hotel is an intimate hideway concieved for dicerning <br /> travelers. It faces directly the unique and spectacular panorama of <br /> the Hallerbos Jungle.</p>
+            <p className='text-[#848FAC] text-[18px] mt-[20px]'>Our Cootage Hotel is an intimate hideway concieved for dicerning <br /> travelers. It faces directly the unique and spectacular panorama of <br /> the Hallerbos Jungle.</p>
 
-            <p>Cootels extends along a private, quiet, and beautiful nature. Stay <br /> away from crowd and enjoy the cozy and beauty with us.</p>
-            <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Reservation</button>
+            <p className='text-[#848FAC] text-[18px] mt-[20px]'>Cootels extends along a private, quiet, and beautiful nature. Stay <br /> away from crowd and enjoy the cozy and beauty with us.</p>
+            <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white]  mt-[15px]'>Reservation</button>
           </div>
         </div>
 
