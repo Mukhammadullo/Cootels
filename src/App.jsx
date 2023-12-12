@@ -25,7 +25,13 @@ function App() {
         </div>
 
         {/* card1 */}
-        <div className='w-[100%] h-[80vh] border-solid border-[2px] border-red-600'>
+        <div className='w-[100%] h-[80vh] border-solid border-[2px] border-red-600 flex'>
+          <div className='w-[50%] h-[80vh] border-solid border-[2px] border-blue-700' >
+            <h1>Nature, Warmth, and <br /> Beauty in One Space</h1>
+            <p className='text-[#848FAC]'>One place to release all the stress, bring back happines, <br /> and get back to nature. We provide the best room  <br /> and nature for you. Come visit us anytime you want.</p>
+            <button className='w-[140px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white]'>Reservation</button>
+          </div>
+          <div className='w-[50%] h-[80vh] border-solid border-[2px] border-blue-700' ></div>
 
         </div>
 
