@@ -83,7 +83,10 @@ function App() {
         </div>
 
 
-{/* #card4 */}
+        {/* #card4 */}
+        <div className='w-[50%] h-[75vh]'>
+
+        </div>
 
       </div>
 
