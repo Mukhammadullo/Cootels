@@ -24,6 +24,11 @@ function App() {
           <button className='w-[140px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white]'>Get Started</button>
         </div>
 
+        {/* card1 */}
+        <div className='w-[100%] h-[80vh] border-solid border-[2px] border-red-600'>
+
+        </div>
+
       </div>
 
 
