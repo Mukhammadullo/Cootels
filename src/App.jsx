@@ -25,13 +25,16 @@ function App() {
         </div>
 
         {/* card1 */}
-        <div className='w-[100%] h-[80vh] border-solid border-[2px] border-red-600 flex'>
-          <div className='w-[50%] h-[80vh] border-solid border-[2px] border-blue-700' >
-            <h1>Nature, Warmth, and <br /> Beauty in One Space</h1>
-            <p className='text-[#848FAC]'>One place to release all the stress, bring back happines, <br /> and get back to nature. We provide the best room  <br /> and nature for you. Come visit us anytime you want.</p>
-            <button className='w-[140px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white]'>Reservation</button>
+        <div className='w-[100%] h-[70vh] border-solid border-[2px] border-red-600 flex'>
+          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-blue-700 flex flex-col  justify-center' >
+            <h1 className='font-bold text-[50px] ml-[18px]'>Nature, Warmth, and <br /> Beauty in One Space</h1>
+            <p className='text-[#848FAC] text-[18px] ml-[18px]'>One place to release all the stress, bring back happines, <br /> and get back to nature. We provide the best room  <br /> and nature for you. Come visit us anytime you want.</p>
+            <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Reservation</button>
           </div>
-          <div className='w-[50%] h-[80vh] border-solid border-[2px] border-blue-700' ></div>
+          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-blue-700' >
+            <img src={} />
+
+          </div>
 
         </div>
 
