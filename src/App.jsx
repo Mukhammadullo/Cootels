@@ -84,7 +84,7 @@ function App() {
 
 
         {/* #card4 */}
-        <div className='w-[50%] h-[75vh] border-solid '>
+        <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 '>
 
         </div>
 
