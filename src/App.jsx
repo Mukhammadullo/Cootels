@@ -71,10 +71,13 @@ function App() {
         <div className='w-[100%] h-[75vh] border-solid border-red-500 border-[2px] flex items-center'>
 
           {/* card_left */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500'></div>
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex flex-col justify-center'>
+            <h1 className='text-[#192252] font-bold text-[36px] mb-[12px]'>Cabin Activities</h1>
+            <p className='text-[#848FAC] text-[16px]'>Don’t worry to get bored easily in our cabin.<br /> We have so many cabin activities for you to do it alone or with group. Maybe this is the best <br /> chance for you to make new friends or even a lover.</p>
+          </div>
 
           {/* card_right */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500'>
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex justify-center items-center'>
             <img src={card4} />
           </div>
         </div>
