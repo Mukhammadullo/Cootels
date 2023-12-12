@@ -67,8 +67,13 @@ function App() {
 
 
         {/* #card3 */}
-        <div>
-          
+        <div className='w-[100%] h-[75vh] border-solid border-red-500 border-[2px] flex items-center'>
+
+          {/* card_left */}
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500'></div>
+
+          {/* card_right */}
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500'></div>
         </div>
 
 
