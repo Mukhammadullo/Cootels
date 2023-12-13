@@ -178,8 +178,8 @@ function App() {
       </div>
 
       {/*# footer  */}
-      <div>
-        
+      <div className='w-[100%] h-[50vh] bg-[#0B265A]'>
+
       </div>
 
     </>
