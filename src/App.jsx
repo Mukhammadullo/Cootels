@@ -178,8 +178,16 @@ function App() {
       </div>
 
       {/*# footer  */}
-      <div className='w-[100%] h-[50vh] bg-[#0B265A]'>
-
+      <div className='w-[100%] h-[50vh] bg-[#0B265A] flex'>
+        <div className='w-[40%] h-[50vh] border-solid border-[2px] border-red-600'>
+          <h1 className='text-[26px] font-bold text-[white]'>Cootels</h1>
+          <p className='text-[#D9DBDE]'>Your Best Private <br/> Hideway From Crowd.<br/> Back to Nature.</p>
+       
+       <div>
+        <img src='' />
+       </div>
+        </div>
+        <div className='w-[60%] h-[50vh] border-solid border-[2px] border-red-600'></div>
       </div>
 
     </>
