@@ -120,9 +120,9 @@ function App() {
         </div>
 
         {/* card5 */}
-        <div className='w-[100%] h-[50vh] border-solid border-[2px] border-blue-500'>
-          <h1>Many Rooms to Choose</h1>
-          <p>There is a room for every needs. We have room for individuals until family size, we also have a cabin for more private experience</p>
+        <div className='w-[100%] h-[50vh] border-solid border-[2px] border-blue-500 flex flex-col justify-center items-center'>
+          <h1 className='text-[46px] text-center font-bold'>Many Rooms to Choose</h1>
+          <p className='text-[#848FAC] text-center'>There is a room for every needs. We have room for individuals until <br/> family size, we also have a cabin for more private experience</p>
           <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Reservation</button>
         </div>
 
