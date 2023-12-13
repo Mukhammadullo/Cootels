@@ -8,6 +8,7 @@ import img2 from '../src/assets/1 (2).png'
 import img3 from '../src/assets/1 (3).png'
 import card2 from '../src/assets/card2.png'
 import card4 from '../src/assets/card4 (2).png'
+import img18 from '../src/assets/image 18.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -107,17 +108,17 @@ function App() {
 
           {/* card_right */}
           <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex justify-center items-center'>
-            <img src={card4} />
+            <img src={img18} />
           </div>
 
 
           {/* card_left */}
           <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex flex-col justify-center'>
-            <h1 className='text-[#192252] font-bold text-[36px] mb-[12px]'>Cabin Activities</h1>
-            <p className='text-[#848FAC] text-[16px]'>Don’t worry to get bored easily in our cabin.<br /> We have so many cabin activities for you to do it alone or with group. Maybe this is the best <br /> chance for you to make new friends or even a lover.</p>
+            <h1 className='text-[#192252] font-bold text-[36px] mb-[12px]'>100% Organic Food</h1>
+            <p className='text-[#848FAC] text-[16px]'>We served 100% organic, low process and delicious food. We allow <br /> our guest to have breakfast or dinner request.What ever made your <br /> taste buds happy.</p>
           </div>
 
-        
+
 
         </div>
 
