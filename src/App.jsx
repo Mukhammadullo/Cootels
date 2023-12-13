@@ -192,7 +192,7 @@ function App() {
         <div className='w-[60%] h-[50vh] border-solid border-[2px] border-red-600 flex justify-around items-center'>
 
           <div>
-            <p>Rooms</p>
+            <p className='text-[26px] font-bold text-[white]'>Rooms</p>
             <p className='text-[#D9DBDE]'>Single Room</p>
             <p className='text-[#D9DBDE]'>Double Room</p>
             <p className='text-[#D9DBDE]'>Cabin </p>
