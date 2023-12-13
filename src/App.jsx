@@ -179,7 +179,7 @@ function App() {
 
       {/*# footer  */}
       <div className='w-[100%] h-[50vh] bg-[#0B265A] flex '>
-        <div className='w-[40%] h-[50vh] border-solid border-[2px] border-red-600 flex flex-col justify-center items-center'>
+        <div className='w-[40%] h-[50vh]  flex flex-col justify-center items-center'>
           <h1 className='text-[26px] font-bold text-[white] m-[10px]'>Cootels</h1>
           <p className='text-[#D9DBDE] m-[10px]'>Your Best Private <br /> Hideway From Crowd.<br /> Back to Nature.</p>
 
