@@ -189,22 +189,28 @@ function App() {
             <img src='src/assets/facebook.png' className='m-[10px]' />
           </div>
         </div>
-        <div className='w-[60%] h-[50vh] border-solid border-[2px] border-red-600'>
+        <div className='w-[60%] h-[50vh] border-solid border-[2px] border-red-600 flex justify-around items-center'>
 
           <div>
             <p>Rooms</p>
-            <p>Single Room</p>
-            <p>Double Room</p>
-            <p>Cabin </p>
-            <p>Custom Room</p>
+            <p className='text-[#D9DBDE]'>Single Room</p>
+            <p className='text-[#D9DBDE]'>Double Room</p>
+            <p className='text-[#D9DBDE]'>Cabin </p>
+            <p className='text-[#D9DBDE]'>Custom Room</p>
           </div>
 
           <div>
             <p>Reservation</p>
-            <p>See the Steps</p>
-            <p>Best Time</p>
+            <p className='text-[#D9DBDE]'>See the Steps</p>
+            <p className='text-[#D9DBDE]'>Best Time</p>
           </div>
 
+          <div>
+            <p>Contact</p>
+            <p className='text-[#D9DBDE]'>Our Number</p>
+            <p className='text-[#D9DBDE]'>Our Email</p>
+            <p className='text-[#D9DBDE]'>Our Location</p>
+          </div>
 
 
         </div>
