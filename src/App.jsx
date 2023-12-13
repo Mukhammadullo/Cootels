@@ -107,20 +107,26 @@ function App() {
 
 
           {/* card_right */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex justify-center items-center'>
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex items-center '>
             <img src={img18} />
           </div>
 
 
           {/* card_left */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex flex-col justify-center'>
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex flex-col justify-center items-center'>
             <h1 className='text-[#192252] font-bold text-[36px] mb-[12px]'>100% Organic Food</h1>
             <p className='text-[#848FAC] text-[16px]'>We served 100% organic, low process and delicious food. We allow <br /> our guest to have breakfast or dinner request.What ever made your <br /> taste buds happy.</p>
           </div>
-
-
-
         </div>
+
+        {/* card5 */}
+        <div className='w-[100%] h-[50vh] border-solid border-[2px] border-blue-500'>
+          <h1>Many Rooms to Choose</h1>
+          <p>There is a room for every needs. We have room for individuals until family size, we also have a cabin for more private experience</p>
+          <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Reservation</button>
+        </div>
+
+
 
       </div>
 
