@@ -71,9 +71,9 @@ function App() {
 
 
         {/* #card2 */}
-        <div className='w-[100%] h-[75vh] border-solid border-red-500 border-[2px] flex items-center'>
+        <div className='w-[100%] h-[75vh]   flex items-center'>
           {/* card_left */}
-          <div className='w-[40%] h-[75vh] border-solid border-red-600 border-[2px] flex '>
+          <div className='w-[40%] h-[75vh]  flex '>
             <img src={card2} className='h-[70vh] ' />
           </div>
 
@@ -90,40 +90,40 @@ function App() {
 
 
         {/* #card3 */}
-        <div className='w-[100%] h-[75vh] border-solid border-red-500 border-[2px] flex items-center'>
+        <div className='w-[100%] h-[75vh]  flex items-center'>
 
           {/* card_left */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex flex-col justify-center'>
+          <div className='w-[50%] h-[75vh] flex flex-col justify-center'>
             <h1 className='text-[#192252] font-bold text-[36px] mb-[12px]'>Cabin Activities</h1>
             <p className='text-[#848FAC] text-[16px]'>Don’t worry to get bored easily in our cabin.<br /> We have so many cabin activities for you to do it alone or with group. Maybe this is the best <br /> chance for you to make new friends or even a lover.</p>
           </div>
 
           {/* card_right */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex justify-center items-center'>
+          <div className='w-[50%] h-[75vh] flex justify-center items-center'>
             <img src={card4} />
           </div>
         </div>
 
 
         {/* #card4 */}
-        <div class='card4 w-[100%] h-[75vh] border-solid border-[4px] border-red-500 flex justify-center items-center'>
+        <div class='card4 w-[100%] h-[75vh] flex justify-center items-center'>
 
 
           {/* card_right */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex items-center '>
+          <div className='w-[50%] h-[75vh] flex items-center '>
             <img src={img18} />
           </div>
 
 
           {/* card_left */}
-          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex flex-col justify-center items-center'>
+          <div className='w-[50%] h-[75vh] flex flex-col justify-center items-center'>
             <h1 className='text-[#192252] font-bold text-[36px] mb-[12px]'>100% Organic Food</h1>
             <p className='text-[#848FAC] text-[16px]'>We served 100% organic, low process and delicious food. We allow <br /> our guest to have breakfast or dinner request.What ever made your <br /> taste buds happy.</p>
           </div>
         </div>
 
         {/*# card5 */}
-        <div className='w-[100%] h-[50vh] border-solid border-[2px] border-blue-500 flex flex-col justify-center items-center'>
+        <div className='w-[100%] h-[50vh]  flex flex-col justify-center items-center'>
           <h1 className='text-[46px] text-center font-bold'>Many Rooms to Choose</h1>
           <p className='text-[#848FAC] text-center'>There is a room for every needs. We have room for individuals until <br /> family size, we also have a cabin for more private experience</p>
           <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Explore more</button>
@@ -131,8 +131,8 @@ function App() {
 
 
         {/* #card6 */}
-        <div className='w-[100%] h-[90vh] border-[2px] border-solid border-purple-600 flex justify-between'>
-          <div className='w-[32%] h-[90vh] border-[2px] border-solid border-red-700 flex flex-col justify-between'>
+        <div className='w-[100%] h-[90vh]  flex justify-between'>
+          <div className='w-[32%] h-[90vh] flex flex-col justify-between'>
             <img src={card6} className='w-[100%] h-[65vh]' />
             <h1 className='text-[26px] font-bold'>Single Room</h1>
             <p className='text-[#848FAC]'>Best for a brave lone wolf who need comfort <br /> and quiet quality time, but you still have <br /> a chance to meet others.</p>
