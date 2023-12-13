@@ -10,7 +10,7 @@ import card2 from '../src/assets/card2.png'
 import card4 from '../src/assets/card4 (2).png'
 import img18 from '../src/assets/image 18.png'
 import card6 from '../src/assets/card6.png'
-
+import card7 from '../src/assets/card7.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -154,7 +154,13 @@ function App() {
 
         {/* #card7 */}
 
-        <div className='w-[100%] h-[60vh] border-solid border-[2px] border-red-500'>
+        <div className='w-[100%] h-[60vh] border-solid border-[2px] border-red-500 flex'>
+          <div className='w-[50%] h-[60vh] border-solid border-[1px] border-purple-700'>
+            <p>Start your journey!</p>
+            <h1>How to Get My Room?</h1>
+            <p>You can contact us by phone or email us. <br/> Easily tap the contact button below and it <br/> will take you to our contact point</p>
+            <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Explore more</button>
+          </div>
           <div className='w-[50%] h-[60vh] border-solid border-[1px] border-purple-700'></div>
         </div>
 
