@@ -193,23 +193,23 @@ function App() {
 
           <div>
             <p className='text-[26px] font-bold text-[white]'>Rooms</p>
-            <p className='text-[#D9DBDE]'>Single Room</p>
-            <p className='text-[#D9DBDE]'>Double Room</p>
-            <p className='text-[#D9DBDE]'>Cabin </p>
-            <p className='text-[#D9DBDE]'>Custom Room</p>
+            <p className='text-[#D9DBDE] m-[10px]'>Single Room</p>
+            <p className='text-[#D9DBDE] m-[10px]'>Double Room</p>
+            <p className='text-[#D9DBDE] m-[10px]'>Cabin </p>
+            <p className='text-[#D9DBDE] m-[10px]'>Custom Room</p>
           </div>
 
           <div>
             <p className='text-[26px] font-bold text-[white]'>Reservation</p>
-            <p className='text-[#D9DBDE]'>See the Steps</p>
-            <p className='text-[#D9DBDE]'>Best Time</p>
+            <p className='text-[#D9DBDE] m-[10px]'>See the Steps</p>
+            <p className='text-[#D9DBDE] m-[10px]'>Best Time</p>
           </div>
 
           <div>
             <p className='text-[26px] font-bold text-[white]'>Contact</p>
-            <p className='text-[#D9DBDE]'>Our Number</p>
-            <p className='text-[#D9DBDE]'>Our Email</p>
-            <p className='text-[#D9DBDE]'>Our Location</p>
+            <p className='text-[#D9DBDE] m-[10px]'>Our Number</p>
+            <p className='text-[#D9DBDE] m-[10px]'>Our Email</p>
+            <p className='text-[#D9DBDE] m-[10px]'>Our Location</p>
           </div>
 
 
