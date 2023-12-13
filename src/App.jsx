@@ -17,8 +17,26 @@ function App() {
 
 
       {/* main_container */}
-      <div className='w-[95%] h-[300vh] border-solid border-[3px] border-red-700 m-auto'>
+      <div className='w-[95%] h-[600vh] border-solid border-[3px] border-red-700 m-auto'>
+        {/*  */}
+        {/* <header>
+          <nav className='headerNavBar'>
+          <section></section>
+          </nav>
+        </header>
+        <main>
+          <section>
+            <section></section>
+            <section></section>
+            <section></section>
+          </section>
+          <section>
+            <article>
 
+            </article>
+          </section>
+        </main> */}
+        {/*  */}
         {/* header */}
         <div className='w-[100%] h-[15vh] border-solid border-[2px] border-red-600 flex justify-between items-center'>
           <h1 className='text-[26px] font-bold text-[#192252]'>Cootels</h1>
@@ -51,7 +69,7 @@ function App() {
         {/* #card2 */}
         <div className='w-[100%] h-[75vh] border-solid border-red-500 border-[2px] flex items-center'>
           {/* card_left */}
-          <div className='w-[40%] h-[75vh] border-solid border-red-600 border-[2px] flex justify-center'>
+          <div className='w-[40%] h-[75vh] border-solid border-red-600 border-[2px] flex '>
             <img src={card2} className='h-[70vh] ' />
           </div>
 
@@ -84,7 +102,22 @@ function App() {
 
 
         {/* #card4 */}
-        <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 '>
+        <div class='card4 w-[100%] h-[75vh] border-solid border-[4px] border-red-500 flex justify-center items-center'>
+
+
+          {/* card_right */}
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex justify-center items-center'>
+            <img src={card4} />
+          </div>
+
+
+          {/* card_left */}
+          <div className='w-[50%] h-[75vh] border-solid border-[2px] border-red-500 flex flex-col justify-center'>
+            <h1 className='text-[#192252] font-bold text-[36px] mb-[12px]'>Cabin Activities</h1>
+            <p className='text-[#848FAC] text-[16px]'>Don’t worry to get bored easily in our cabin.<br /> We have so many cabin activities for you to do it alone or with group. Maybe this is the best <br /> chance for you to make new friends or even a lover.</p>
+          </div>
+
+        
 
         </div>
 
