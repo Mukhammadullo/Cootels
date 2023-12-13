@@ -21,7 +21,7 @@ function App() {
 
 
       {/* main_container */}
-      <div className='w-[95%] h-[580vh] border-solid border-[3px] border-red-700 m-auto'>
+      <div className='w-[95%] h-[580vh]  m-auto'>
         {/*  */}
         {/* <header>
           <nav className='headerNavBar'>
@@ -42,7 +42,7 @@ function App() {
         </main> */}
         {/*  */}
         {/* header */}
-        <div className='w-[100%] h-[15vh] border-solid border-[2px] border-red-600 flex justify-between items-center'>
+        <div className='w-[100%] h-[15vh] flex justify-between items-center'>
           <h1 className='text-[26px] font-bold text-[#192252]'>Cootels</h1>
           <ul className='flex text-[18px]'>
             <li className='text-[#192252] m-[5px] font-mono'>Roomss</li>
@@ -53,16 +53,16 @@ function App() {
         </div>
 
         {/*# card1 */}
-        <div className='w-[100%] h-[70vh] border-solid border-[2px] border-red-600 flex'>
+        <div className='w-[100%] h-[70vh] flex'>
           {/* card_right */}
-          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-blue-700 flex flex-col  justify-center' >
+          <div className='w-[50%] h-[70vh] flex flex-col  justify-center' >
             <h1 className='font-bold text-[50px] ml-[18px]'>Nature, Warmth, and <br /> Beauty in One Space</h1>
             <p className='text-[#848FAC] text-[18px] ml-[18px]'>One place to release all the stress, bring back happines, <br /> and get back to nature. We provide the best room  <br /> and nature for you. Come visit us anytime you want.</p>
             <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Reservation</button>
           </div>
 
           {/* card_left */}
-          <div className='w-[40%] h-[70vh] border-solid border-[2px] border-blue-700 flex justify-evenly' >
+          <div className='w-[40%] h-[70vh] flex justify-evenly' >
             <img src={img1} className='w-[23%] h-[65vh]' />
             <img src={img2} className='w-[23%] h-[65vh] mt-[30px]' />
             <img src={img3} className='w-[23%] h-[65vh]' />
