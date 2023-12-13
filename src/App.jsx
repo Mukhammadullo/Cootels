@@ -45,7 +45,7 @@ function App() {
         <div className='w-[100%] h-[15vh] flex justify-between items-center'>
           <h1 className='text-[26px] font-bold text-[#192252]'>Cootels</h1>
           <ul className='flex text-[18px]'>
-            <li className='text-[#192252] m-[5px] font-mono'>Roomss</li>
+            <li className='text-[#192252] m-[5px] font-mono'>Rooms</li>
             <li className='text-[#192252] m-[5px] font-mono'>Reservation</li>
             <li className='text-[#192252] m-[5px] font-mono'>Contacs</li>
           </ul>
@@ -155,8 +155,8 @@ function App() {
 
         {/* #card7 */}
 
-        <div className='w-[100%] h-[60vh] border-solid border-[2px] border-red-500 flex mt-[10px]'>
-          <div className='w-[50%] h-[60vh] border-solid border-[1px] border-purple-700 flex flex-col justify-center'>
+        <div className='w-[100%] h-[60vh] flex mt-[10px]'>
+          <div className='w-[50%] h-[60vh]  flex flex-col justify-center'>
             <p >Start your journey!</p>
             <h1 className='text-[30px] font-bold'>How to Get My Room?</h1>
             <p className='text-[#848FAC] text-[18px]'>You can contact us by phone or email us. <br /> Easily tap the contact button below and it <br /> will take you to our contact point</p>
