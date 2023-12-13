@@ -200,13 +200,13 @@ function App() {
           </div>
 
           <div>
-            <p>Reservation</p>
+            <p className='text-[26px] font-bold text-[white]'>Reservation</p>
             <p className='text-[#D9DBDE]'>See the Steps</p>
             <p className='text-[#D9DBDE]'>Best Time</p>
           </div>
 
           <div>
-            <p>Contact</p>
+            <p className='text-[26px] font-bold text-[white]'>Contact</p>
             <p className='text-[#D9DBDE]'>Our Number</p>
             <p className='text-[#D9DBDE]'>Our Email</p>
             <p className='text-[#D9DBDE]'>Our Location</p>
