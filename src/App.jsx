@@ -158,10 +158,12 @@ function App() {
           <div className='w-[50%] h-[60vh] border-solid border-[1px] border-purple-700'>
             <p>Start your journey!</p>
             <h1>How to Get My Room?</h1>
-            <p>You can contact us by phone or email us. <br/> Easily tap the contact button below and it <br/> will take you to our contact point</p>
+            <p>You can contact us by phone or email us. <br /> Easily tap the contact button below and it <br /> will take you to our contact point</p>
             <button className='w-[160px] h-[7vh] bg-[#0E1734] rounded-[12px] text-[white] ml-[18px] mt-[15px]'>Explore more</button>
           </div>
-          <div className='w-[50%] h-[60vh] border-solid border-[1px] border-purple-700'></div>
+          <div className='w-[50%] h-[60vh] border-solid border-[1px] border-purple-700'>
+            <img src={card8} />
+          </div>
         </div>
 
 
