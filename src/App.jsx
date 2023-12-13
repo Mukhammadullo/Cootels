@@ -131,24 +131,31 @@ function App() {
 
         {/* #card6 */}
         <div className='w-[100%] h-[90vh] border-[2px] border-solid border-purple-600 flex justify-between'>
-            <div className='w-[32%] h-[90vh] border-[2px] border-solid border-red-700 flex flex-col justify-between'>
-              <img src={card6} className='w-[100%] h-[65vh]' />
+          <div className='w-[32%] h-[90vh] border-[2px] border-solid border-red-700 flex flex-col justify-between'>
+            <img src={card6} className='w-[100%] h-[65vh]' />
             <h1 className='text-[26px] font-bold'>Single Room</h1>
-            <p className='text-[#848FAC]'>Best for a brave lone wolf who need comfort <br/> and quiet quality time, but you still have <br/> a chance to meet others.</p>
+            <p className='text-[#848FAC]'>Best for a brave lone wolf who need comfort <br /> and quiet quality time, but you still have <br /> a chance to meet others.</p>
             <p className='text-[#424F7B]'>Learn more</p>
-            </div>
+          </div>
           <div className='w-[32%] h-[90vh] border-[2px] border-solid border-red-700 flex flex-col justify-between'>
             <img src={card6} className='w-[100%] h-[65vh]' />
             <h1 className='text-[26px] font-bold'>Single Room</h1>
             <p className='text-[#848FAC]'>Best for a brave lone wolf who need comfort <br /> and quiet quality time, but you still have <br /> a chance to meet others.</p>
             <p>Learn more</p>
-            </div>
+          </div>
           <div className='w-[32%] h-[90vh] border-[2px] border-solid border-red-700 flex flex-col justify-between'>
             <img src={card6} className='w-[100%] h-[65vh]' />
             <h1 className='text-[26px] font-bold'>Single Room</h1>
             <p className='text-[#848FAC]'>Best for a brave lone wolf who need comfort <br /> and quiet quality time, but you still have <br /> a chance to meet others.</p>
             <p>Learn more</p>
-            </div>
+          </div>
+        </div>
+
+
+        {/* #card7 */}
+
+        <div className='w-[100%] h-[50vh] border-solid border-[2px] border-red-500'>
+
         </div>
 
 
