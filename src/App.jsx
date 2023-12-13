@@ -11,6 +11,7 @@ import card4 from '../src/assets/card4 (2).png'
 import img18 from '../src/assets/image 18.png'
 import card6 from '../src/assets/card6.png'
 import card7 from '../src/assets/card7.png'
+import card8 from '../src/assets/card8.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,7 @@ function App() {
 
 
       {/* main_container */}
-      <div className='w-[95%] h-[600vh] border-solid border-[3px] border-red-700 m-auto'>
+      <div className='w-[95%] h-[580vh] border-solid border-[3px] border-red-700 m-auto'>
         {/*  */}
         {/* <header>
           <nav className='headerNavBar'>
@@ -167,7 +168,15 @@ function App() {
         </div>
 
 
+        {/*# card8 */}
+        <div className='w-[100%] h-[70vh] border-[2px] border-red-700 border-solid flex flex-col justify-center items-center'>
+          <p className='text-[38px] m-[10px] font-bold text-[#192252]'>Hear From Our Happy Customers</p>
+          <img src={card8} className='m-[10px]' />
+          <p className='text-center text-[#848FAC]'>“Great service, great food, great people. The scenery is also beautiful, you can do so much <br /> activity even with your famility. Worth every penny! you should come and see for your self.  5 <br /> out of 5! the waffle is great!”</p>
+          <h1 className='text-[#192252] text-[28px] font-bold'>Kirana Dunham</h1>
+        </div>
       </div>
+
 
 
     </>
