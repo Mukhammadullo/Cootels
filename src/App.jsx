@@ -184,12 +184,30 @@ function App() {
           <p className='text-[#D9DBDE] m-[10px]'>Your Best Private <br /> Hideway From Crowd.<br /> Back to Nature.</p>
 
           <div className='flex'>
-            <img src='src/assets/Vector.png'         className='m-[10px]' />
+            <img src='src/assets/Vector.png' className='m-[10px]' />
             <img src='src/assets/instagram-logo.png' className='m-[10px]' />
-            <img src='src/assets/facebook.png'       className='m-[10px]' />
+            <img src='src/assets/facebook.png' className='m-[10px]' />
           </div>
         </div>
-        <div className='w-[60%] h-[50vh] border-solid border-[2px] border-red-600'></div>
+        <div className='w-[60%] h-[50vh] border-solid border-[2px] border-red-600'>
+
+          <div>
+            <p>Rooms</p>
+            <p>Single Room</p>
+            <p>Double Room</p>
+            <p>Cabin </p>
+            <p>Custom Room</p>
+          </div>
+
+          <div>
+            <p>Reservation</p>
+            <p>See the Steps</p>
+            <p>Best Time</p>
+          </div>
+
+
+
+        </div>
       </div>
 
     </>
