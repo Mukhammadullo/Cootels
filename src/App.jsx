@@ -189,7 +189,7 @@ function App() {
             <img src='src/assets/facebook.png' className='m-[10px]' />
           </div>
         </div>
-        <div className='w-[60%] h-[50vh] border-solid border-[2px] border-red-600 flex justify-around items-center'>
+        <div className='w-[60%] h-[50vh]  flex justify-around items-center'>
 
           <div>
             <p className='text-[26px] font-bold text-[white]'>Rooms</p>
