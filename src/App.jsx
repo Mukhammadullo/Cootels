@@ -23,23 +23,7 @@ function App() {
       {/* main_container */}
       <div className='w-[95%] h-[580vh]  m-auto'>
         {/*  */}
-        {/* <header>
-          <nav className='headerNavBar'>
-          <section></section>
-          </nav>
-        </header>
-        <main>
-          <section>
-            <section></section>
-            <section></section>
-            <section></section>
-          </section>
-          <section>
-            <article>
-
-            </article>
-          </section>
-        </main> */}
+        
         {/*  */}
         {/* header */}
         <div className='w-[100%] h-[15vh] flex justify-between items-center'>
